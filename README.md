@@ -1,4 +1,4 @@
-# 🤖 Multi-Agent Customer Support System
+#  Customer Support Agent
 
 A production-grade, **multi-agent AI customer support bot** for a mock e-commerce store — built with **LangGraph** orchestration, an **MCP tool server**, **human-in-the-loop** refund approval, and a full-stack **FastAPI + React** interface.
 
@@ -210,10 +210,4 @@ Runs all 50 scripted evaluation scenarios and generates JSON + Markdown reports 
 - **No external channels** — No WhatsApp, SMS, or email channel integrations
 - **LLM non-determinism** — Some eval scenarios (especially routing edge cases) may vary between runs due to inherent LLM variability
 
----
 
-## 📄 Resume Bullets
-
-- Built a multi-agent customer support system with LangGraph orchestration, MCP tool server, and human-in-the-loop approval; achieved **88% eval pass rate** across 50 scripted scenarios
-- Maintained **76% auto-resolution rate** with deterministic policy engine and secure customer_id injection, with **0 safety violations** (no unauthorized refunds or cross-customer data leaks)
-- Full-stack delivery: FastAPI backend, React chat widget + admin portal, PostgreSQL + Redis session store, Langfuse observability, 50-scenario evaluation suite
